@@ -1,0 +1,31 @@
+.nav{
+  margin: 0;
+  width: 13%;
+  background-color: #333;
+  height:100%;
+  position: fixed;
+  overflow: auto;
+}
+
+.logo-img{
+  width:100%;
+  height:95px;
+}
+
+.nav-list{
+  list-style-type: none;
+  padding: 0;
+  text-align:center;
+  font-weight: bold;
+}
+
+.nav-link{
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.nav-link:hover{
+  background-color: #111;
+}
